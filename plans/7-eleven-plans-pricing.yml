@@ -1,0 +1,39 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: 7-Eleven
+providerId: 7-eleven
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Retail
+  - Convenience Stores
+description: 7-Eleven is a consumer-facing convenience store retailer. There is no public developer API, no developer portal, and no published pricing for programmatic access. The mobile app and 7NOW delivery surfaces are powered by private internal APIs not exposed to third parties.
+notes: No public developer API — placeholder only. 7-Eleven's digital surfaces are internal / consumer-facing, not a paid developer product.
+sources:
+  - https://www.7-eleven.com/
+plans:
+  - id: 7-eleven-internal
+    name: Internal / Consumer Surface
+    type: enterprise
+    description: 7-Eleven's API surfaces power its own mobile app, web properties, and franchisee systems. They are not offered as a self-service developer product.
+    entries:
+      - label: No public plan
+        name: no_public_plan
+        type: subscription
+        metric: contract
+        limit: -1
+        timeFrame: year
+        geo: global
+        unit: 1
+        price: not publicly priced
+        userMultiplied: false
+    elements:
+      - name: 7-Eleven mobile app
+      - name: 7NOW delivery
+      - name: 7Rewards loyalty
+      - name: Access governed by internal / partner agreement
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

@@ -8,9 +8,64 @@ tags:
   - Convenience Stores
 description: 'A global convenience store chain offering everyday essentials, snacks, and beverages. Known for its 24/7 operations and Slurpee brand drinks.'
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.7-eleven.com/
+  - type: Login
+    url: https://www.7-eleven.com/account/sign-in
+  - type: SignUp
+    url: https://www.7-eleven.com/account/sign-up
+  - type: Features
+    data:
+      - name: 7Rewards Loyalty Program
+        description: Digital loyalty program where customers earn points on qualifying purchases redeemable for free products and exclusive offers.
+      - name: 7NOW Delivery
+        description: On-demand delivery service for convenience store items, food, and beverages from local 7-Eleven stores.
+      - name: Mobile Checkout
+        description: In-app mobile checkout enabling customers to scan and pay without using a register inside participating stores.
+      - name: Store Locator
+        description: Locate nearby 7-Eleven stores with hours, fuel pricing, and in-store services.
+      - name: Fuel Pricing
+        description: Real-time fuel prices for 7-Eleven and Speedway branded fuel stations.
+      - name: Mobile Payments
+        description: Accept Apple Pay, Google Pay, and 7-Eleven Wallet for in-store and online purchases.
+  - type: UseCases
+    data:
+      - name: Loyalty Engagement
+        description: Customer engagement and retention through points-based loyalty rewards and personalized offers.
+      - name: Convenience Delivery
+        description: Last-mile delivery of convenience goods, food, and beverages to consumers in metro areas.
+      - name: Mobile Commerce
+        description: In-app ordering, payment, and pickup for convenience store products.
+      - name: Fuel Retail
+        description: Branded retail fuel sales through 7-Eleven and Speedway fuel locations.
+  - type: Authentication
+    data:
+      - name: No Public API
+        description: 7-Eleven does not publish a public developer API or developer portal. Mobile and web experiences are powered by private internal APIs that are not exposed to third parties.
+  - type: Compliance
+    data:
+      - name: PCI DSS
+        description: Payment Card Industry Data Security Standard compliance for processing mobile and in-store card payments.
+      - name: CCPA
+        description: California Consumer Privacy Act compliance for collection, sale, and disclosure of personal information of California residents.
+      - name: GDPR
+        description: General Data Protection Regulation compliance for European customers of international 7-Eleven licensees.
+  - type: Integrations
+    data:
+      - name: Speedway
+        description: Speedway convenience stores and fuel locations are part of 7-Eleven's North American retail footprint.
+      - name: Apple Pay
+        description: Apple Pay tokenized payment acceptance for in-store and in-app purchases.
+      - name: Google Pay
+        description: Google Pay tokenized payment acceptance for in-store and in-app purchases.
+      - name: DoorDash
+        description: Third-party delivery integration making 7-Eleven inventory available through the DoorDash marketplace.
+      - name: Uber Eats
+        description: Third-party delivery integration making 7-Eleven inventory available through Uber Eats.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

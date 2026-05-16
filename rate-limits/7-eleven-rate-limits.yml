@@ -1,0 +1,29 @@
+specification: API Commons Rate Limits
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/RateLimits
+provider: 7-Eleven
+providerId: 7-eleven
+created: '2026-05-16'
+modified: '2026-05-16'
+reconciled: false
+tags:
+  - Retail
+  - Convenience Stores
+  - Rate Limiting
+description: 7-Eleven does not publish rate limits because it does not offer a public developer API. Internal rate limiting protecting the mobile app and 7NOW delivery is not disclosed externally.
+notes: No public developer API — placeholder only.
+sources:
+  - https://www.7-eleven.com/
+responseCodes:
+  throttled: 429
+limits:
+  - name: No public rate limits
+    scope: account
+    metric: not_applicable
+    limit: not published
+policies:
+  - name: Internal throttling
+    description: Internal anti-abuse and throttling controls protect the consumer mobile app and web properties; no public numeric limits are published.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
