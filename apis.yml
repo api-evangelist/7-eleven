@@ -20,7 +20,7 @@ common:
     url: https://www.7-eleven.com/
   - type: Login
     url: https://www.7-eleven.com/account/sign-in
-  - type: SignUp
+  - type: Signup
     url: https://www.7-eleven.com/account/sign-up
   - type: Features
     data:
