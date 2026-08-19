@@ -21,7 +21,7 @@ tags:
 description: 'A global convenience store chain offering everyday essentials, snacks, and beverages. Known for its 24/7 operations and Slurpee brand drinks.'
 created: '2026-05-05'
 modified: '2026-05-16'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis: []
 common:
   - type: DomainSecurity
