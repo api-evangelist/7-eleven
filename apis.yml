@@ -2,6 +2,17 @@ aid: 7-eleven
 url: https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/apis.yml
 name: 7-Eleven
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
