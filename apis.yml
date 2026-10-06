@@ -31,10 +31,12 @@ tags:
   - Convenience Stores
 description: 'A global convenience store chain offering everyday essentials, snacks, and beverages. Known for its 24/7 operations and Slurpee brand drinks.'
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.7-eleven.com/blog
+    type: Blog
   - type: DomainSecurity
     url: security/7-eleven-domain-security.yml
   - type: GitHubOrganization
