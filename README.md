@@ -1,4 +1,4 @@
-# 7-Eleven (7-eleven)
+# 7-Eleven
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,75 +66,97 @@
 
 A global convenience store chain offering everyday essentials, snacks, and beverages. Known for its 24/7 operations and Slurpee brand drinks.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/7-eleven/refs/heads/main/apis.yml)
+**Areas:** Retail · Convenience Stores
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=7-eleven-api-evangelist&utm_content=repo)
+## 7-Eleven on APIs.io
 
-## Tags:
+Everything profiled for 7-Eleven is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/7-eleven/](https://apis.io/providers/7-eleven/)** — or go straight to one of the APIs or properties below.
 
- - Retail, Convenience Stores
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2026-05-05
-- **Modified:** 2026-05-16
+#### Security (1)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-7-Eleven does not publish a public developer API. The mobile app, 7NOW delivery, and 7Rewards loyalty surfaces are powered by private internal APIs that are not exposed to third parties.
+- [7 Eleven Domain Security](https://apis.io/security/7-eleven/7-eleven-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [7 Eleven Plans Pricing](https://apis.io/plans/7-eleven/7-eleven-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [7 Eleven Rate Limits](https://apis.io/rate-limits/7-eleven/7-eleven-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [7 Eleven Finops](https://apis.io/finops/7-eleven/7-eleven-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.7-eleven.com/)
-- [Login](https://www.7-eleven.com/account/sign-in)
-- [SignUp](https://www.7-eleven.com/account/sign-up)
+- [Blog](https://www.7-eleven.com/blog)
+- [GitHub](https://github.com/ok7-eleven)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| 7Rewards Loyalty Program | Digital loyalty program where customers earn points on qualifying purchases redeemable for free products and exclusive offers. |
-| 7NOW Delivery | On-demand delivery service for convenience store items, food, and beverages from local 7-Eleven stores. |
-| Mobile Checkout | In-app mobile checkout enabling customers to scan and pay without using a register inside participating stores. |
-| Store Locator | Locate nearby 7-Eleven stores with hours, fuel pricing, and in-store services. |
-| Fuel Pricing | Real-time fuel prices for 7-Eleven and Speedway branded fuel stations. |
-| Mobile Payments | Accept Apple Pay, Google Pay, and 7-Eleven Wallet for in-store and online purchases. |
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 30.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 19.7 |
 
-| Name | Description |
-|------|-------------|
-| Loyalty Engagement | Customer engagement and retention through points-based loyalty rewards and personalized offers. |
-| Convenience Delivery | Last-mile delivery of convenience goods, food, and beverages to consumers in metro areas. |
-| Mobile Commerce | In-app ordering, payment, and pickup for convenience store products. |
-| Fuel Retail | Branded retail fuel sales through 7-Eleven and Speedway fuel locations. |
+**Agent readiness 3.1** — human-only
 
-## Authentication
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| No Public API | 7-Eleven does not publish a public developer API or developer portal. Mobile and web experiences are powered by private internal APIs that are not exposed to third parties. |
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
 
-## Compliance
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/7-eleven/](https://apis.io/providers/7-eleven/).
 
-| Name | Description |
-|------|-------------|
-| PCI DSS | Payment Card Industry Data Security Standard compliance for processing mobile and in-store card payments. |
-| CCPA | California Consumer Privacy Act compliance for collection, sale, and disclosure of personal information of California residents. |
-| GDPR | General Data Protection Regulation compliance for European customers of international 7-Eleven licensees. |
+## How this profile is made
 
-## Integrations
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-| Name | Description |
-|------|-------------|
-| Speedway | Speedway convenience stores and fuel locations are part of 7-Eleven's North American retail footprint. |
-| Apple Pay | Apple Pay tokenized payment acceptance for in-store and in-app purchases. |
-| Google Pay | Google Pay tokenized payment acceptance for in-store and in-app purchases. |
-| DoorDash | Third-party delivery integration making 7-Eleven inventory available through the DoorDash marketplace. |
-| Uber Eats | Third-party delivery integration making 7-Eleven inventory available through Uber Eats. |
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 7-Eleven: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-## Maintainers
+## Open an issue
 
-**FN:** Kin Lane
-
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/7-eleven/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
