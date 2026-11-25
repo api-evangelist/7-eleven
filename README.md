@@ -80,25 +80,25 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [7 Eleven Domain Security](https://apis.io/security/7-eleven/7-eleven-domain-security/)
+- [7-Eleven Domain Security](https://apis.io/security/7-eleven/7-eleven-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [7 Eleven Plans Pricing](https://apis.io/plans/7-eleven/7-eleven-plans-pricing/)
+- [7-Eleven Plans Pricing](https://apis.io/plans/7-eleven/7-eleven-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [7 Eleven Rate Limits](https://apis.io/rate-limits/7-eleven/7-eleven-rate-limits/)
+- [7-Eleven Rate Limits](https://apis.io/rate-limits/7-eleven/7-eleven-rate-limits/)
 
 #### FinOps (1)
 
 What the API costs to run, by operation.
 
-- [7 Eleven Finops](https://apis.io/finops/7-eleven/7-eleven-finops/)
+- [7-Eleven Finops](https://apis.io/finops/7-eleven/7-eleven-finops/)
 
 ## Where to find this API
 
@@ -110,16 +110,16 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 10.8** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
 | Discoverability | 30.4 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 7.9 |
+| Operational transparency | 9.5 |
 | Developer ergonomics | 14.3 |
-| Access clarity | 19.7 |
+| Access clarity | 21.3 |
 
 **Agent readiness 3.1** — human-only
 
@@ -144,8 +144,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/7-eleven/](https://apis.io/providers/7-eleven/).
 
